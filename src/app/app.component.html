@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<button (click)="toggle()">Toggle</button>
+<h2>Without AnimationBuilder:</h2>
+<div class="container" [@collapse]="collapseState"></div>
+<h2>With AnimationBuilder:</h2>
+<div class="container" #withBuilder></div>
